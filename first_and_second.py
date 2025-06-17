@@ -1,6 +1,6 @@
 import math
 
-def test_uravnenie(a, b, c, d):
+def divide_sqrt(a, b, c, d):
     try:
         result = math.sqrt(a - b) / (c - d)
         return result
@@ -18,7 +18,7 @@ test = test_uravnenie(5,3,4,4)
 print(test)
 
 2)Отрицательное число под корнем
-test1 = test_uravnenie(2,3,4,4)
+test1 = test_uravnenie(2,3,5,4)
 print(test1)
 
 3)Два положительных числа
